@@ -1,10 +1,23 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { TabNavigator, TabBarBottom } from 'react-navigation';
+import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 import MapsContainer from '../containers/MapsContainer';
 import ProfileContainer from '../containers/ProfileContainer';
+import SignInContainer from '../containers/SignInContainer';
+import SignUpContainer from '../containers/SignUpContainer';
 
-const stackNavigator = TabNavigator({
+const authNavigator = StackNavigator({
+    SignIn: {
+        screen: SignInContainer
+    },
+    SingUp: {
+        screen: SignUpContainer
+    }
+}, {
+    headerMode: 'none'
+});
+
+const appTabs = TabNavigator({
     Maps: {
         screen: MapsContainer,
         navigationOptions: {
@@ -13,14 +26,14 @@ const stackNavigator = TabNavigator({
                 <Icon 
                     name={'directions-bus'}
                     size={20}
-                    style={{ color: tintColor }}/>
+                    style={{ color: tintColor }} />
             )
         }
     },
     Profile: {
         screen: ProfileContainer,
         navigationOptions: {
-            tabBarLabel: 'Profile',
+            tabBarLabel: 'Perfil',
             tabBarIcon: ({ tintColor, focused }) => (
                 <Icon 
                     name={'face'}
@@ -34,4 +47,5 @@ const stackNavigator = TabNavigator({
     tabBarComponent: TabBarBottom
 });
 
-export default stackNavigator;
+export const AuthNavigator = authNavigator;
+export const AppTabs = appTabs;
