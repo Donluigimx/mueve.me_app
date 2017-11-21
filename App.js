@@ -3,9 +3,10 @@ import { createStore, applyMiddleware } from 'redux';
 import { reducer as appReducer } from './src/reducers/reducer';
 import axios from 'axios';
 import axiosMiddleware from 'redux-axios-middleware';
-import { getToken } from './src/reducers/modules/users';
+import { setToken } from './src/reducers/modules/users';
 import { Provider } from 'react-redux';
 import HomeContainer from './src/containers/HomeContainer';
+import { AsyncStorage } from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -21,7 +22,10 @@ export default class App extends React.Component {
         )
     )
 
-    store.dispatch(getToken());
+    AsyncStorage.getItem('@MueveMe:authToken')
+    .then( value => {
+        store.dispatch(setToken(value));
+    });    
     return (
       <Provider store={store}>
         <HomeContainer />

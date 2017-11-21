@@ -9,7 +9,7 @@ import AuthForm from '../components/AuthForm';
 class SignInContainer extends Component {
 
     signIn = (username, password) => {
-        
+        this.props.authUser(username, password);
     };
     
     render() {
@@ -57,6 +57,6 @@ const styles = StyleSheet.create({
 });
 
 export default connect(
-    state => {},
+    state => ({}),
     dispatch => bindActionCreators(userActions, dispatch)
 )(SignInContainer);

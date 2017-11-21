@@ -1,5 +1,4 @@
 import { createReducer } from '../utils';
-import { AsyncStorage } from 'react-native';
 
 export const authUser = (username, password) => ({
     type: 'AUTH_USER',
@@ -14,13 +13,7 @@ export const authUser = (username, password) => ({
     }
 });
 
-export const getToken = () => {
-    let token = null;
-    AsyncStorage.getItem('@MueveMe:authToken')
-        .then( value => {
-            token = value;
-        });
-    
+export const setToken = (token) => {
     return {
         type: 'SET_TOKEN',
         token,
@@ -47,6 +40,7 @@ export default createReducer(
 
         SET_TOKEN: (state, { token }) => ({
             ...state,
+            isAuthed: true,
             token
         })
     }
