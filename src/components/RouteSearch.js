@@ -4,12 +4,16 @@ import { TextInput, StyleSheet, View } from 'react-native';
 export default class RouteSearch extends Component {
 
     render() {
+        const { searchAction } = this.props;
+        this.route = '';
         return(
             <View style={styles.searchInput}>
                 <TextInput 
                     style={styles.inputBox}
-                    underlineColorAndroid='rgba(0,0,0,0)' 
-                    onTouchStart={(ev) => console.log('tocame')}/>
+                    underlineColorAndroid='rgba(0,0,0,0)'
+                    onChangeText={val => this.route = val}
+                    onBlur={() => searchAction(this.route)}
+                    returnKeyType='search' />
             </View>
         )
     }
@@ -23,9 +27,11 @@ const styles = StyleSheet.create({
         backgroundColor:'rgba(255, 255,255,255)',
         paddingLeft: 20,
         elevation: 4,
+        fontSize: 20,
     },
     searchInput: {
-        justifyContent: 'flex-start',
-        flexGrow: 1,
+        alignItems: 'center',
+        marginTop: 0,
+        maxHeight: 100,
     }
 })
