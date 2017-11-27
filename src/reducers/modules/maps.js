@@ -1,4 +1,5 @@
-import { createReducer } from '../utils';
+import { createReducer } from '../utils'
+import { Alert } from 'react-native'
 
 export const getBusStopsByRoute = (route, token) => ({
     type: 'BUS_STOPS_BY_ROUTE',
@@ -24,6 +25,10 @@ export default createReducer(
                     busStops: payload.data[0].busStops,
                 }
             } else {
+                Alert.alert(
+                    'Ups...',
+                    'La ruta que buscaste no está disponible. Lo sentimos :(.'
+                )
                 return {
                     ...state,
                     route: null,
