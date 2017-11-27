@@ -1,4 +1,5 @@
-import { createReducer } from '../utils';
+import { createReducer } from '../utils'
+import { AsyncStorage } from 'react-native'
 
 export const authUser = (username, password) => ({
     type: 'AUTH_USER',

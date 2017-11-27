@@ -43,12 +43,7 @@ class MapsContainer extends Component {
                 <MapView
                     ref={ref => this.mapRef = ref}
                     style={styles.map}
-                    onMapReady={() => navigator.geolocation.getCurrentPosition(pos => {
-                        this.mapRef.fitToCoordinates(
-                            [{latitude: pos.coords.latitude, longitude: pos.coords.longitude}],
-                            { edgePadding: { top: 10, right: 10, bottom: 10, left: 10 }, animated: false }
-                        )
-                    })} >
+                    showsUserLocation={true} >
                     {
                         busStops.map((busStop, key) => (
                             <MapView.Marker 

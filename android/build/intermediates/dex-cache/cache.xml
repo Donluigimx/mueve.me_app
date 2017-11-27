@@ -8,61 +8,43 @@
         optimize="true"
         revision="26.0.2"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_193c8eaf477f12ec96e31b41dc5b188b29b4e4b4.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_193c8eaf477f12ec96e31b41dc5b188b29b4e4b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_d65a6912ae055b74adf683265f0866bf9951535f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_f8b5bef05625d59551e8bb232712d2978d104d78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_b395026b069b2f73a640ec373dcd776760040875.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_508cb81facf628f9308f0f7377ce51aecb93a91e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_08fbce66eff71f6a3e7dd4cff9a703c55e9e6f1b.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_dfec7267e65f4a55626d8b5397c0b9fe8d686604.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_36532a98b04eac92c4a7909db83ef231eaed3fdf.jar" />
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_93105c293e2581a9d9739048c40913c9854e32b3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/mueve.me_client/react-native-maps/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_54d4da3185ec2657a33e3c5405ef48d82c14fea7.jar" />
+        sha1="37e5e895969d1a9d6c00e39f2680a34f20e0c3f0">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/mueve.me_client-react-native-maps-unspecified_bd40fbbe482cf9de1455aede473ab01396bb6790.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,25 +53,16 @@
         optimize="true"
         revision="26.0.2"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b463038ed65e07d93905a01200d4dbae6d00c594.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b463038ed65e07d93905a01200d4dbae6d00c594.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_d46b6e99919291d12c1120a2b3b5f4db7f8bfe2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_a7dc584590fa93907abdf73245f312cb97a43841.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_0422c0efea0cd75677da480fdc198207bb697432.jar" />
     </item>
     <item
         is-multidex="false"
@@ -98,25 +71,25 @@
         optimize="true"
         revision="26.0.2"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_3b8ae7519e6bec7ba175c8ec1280a3e1b90fb83d.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_3b8ae7519e6bec7ba175c8ec1280a3e1b90fb83d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_de6ed3809a43597b2e74da7e4cbce3139996ac96.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_4098eb0dc4cab17342a6058efb8c38341dd60686.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/mueve.me_client/react-native-maps/unspecified/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="39f8395531ba77bb6e20a15fb04ef3fd9763e8e7">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/mueve.me_client-react-native-maps-unspecified_68f328b1774458efdbc203c2f9c31bca78d694a7.jar" />
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_04f912b1c0b6bdb104439a4733277798d681bfbd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,25 +98,25 @@
         optimize="true"
         revision="26.0.2"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_811bb466ce1f519e28eaf133460d8ba84562d724.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_811bb466ce1f519e28eaf133460d8ba84562d724.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_43e0c0626fca9abac278a1251d0021ccdf482ef6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_4f9d59872f384126cd67aff32123d70afdf174b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_0879b1a186e83039bb72d7a85091342ff2c40d9e.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_a2065cbd52e0afeb3b3bbe36030d9f20346ff05f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -152,34 +125,34 @@
         optimize="true"
         revision="26.0.2"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_62903d3f17baadb354d91e03e44eb4a665e3c95a.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_62903d3f17baadb354d91e03e44eb4a665e3c95a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_9c38c2612056ffbebca2935e11304a7e5094bf00.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_d4fcd75e9f0a7fa587824054f0705231ff1bbd06.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e2338a15622a3905b95ba3886b4241a3bfda2394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="610b957661a666d16b2cd4664c6bf4370226dfd2">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.5_c801c53592215c9bac295e0480ca215cc8b47f60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_dba214ab9b7dace5e6624da4f46c485ba75ebfe0.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.5_a17339429948e99a5453755ff8f6516c82924d1b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -188,7 +161,43 @@
         optimize="true"
         revision="26.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_9d6ccdf713063dab50c6694b22f199738b53a9d7.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_9d6ccdf713063dab50c6694b22f199738b53a9d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_ab68061d69df3101667b201bfef65c8052e9df40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_6fd40feae38d79a919dcfa87f973577eb2dae2bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_6d4b6aeb7cbfe1694bf3808e2f35b241a47da71a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_b7c4c430631d152f161ef73e0d578a2c7b44db44.jar" />
     </item>
     <item
         is-multidex="false"
@@ -197,16 +206,16 @@
         optimize="true"
         revision="26.0.2"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_d331c4727471aa6bb60288dcb95cfe1ddfb99c57.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_d331c4727471aa6bb60288dcb95cfe1ddfb99c57.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_be1bcbb2b3e8e1f45ab5a64338ae5c905c1e1ff1.jar" />
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_a586d3b5f2d0d55a577d258c391b45e0fd7c8af4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -215,25 +224,16 @@
         optimize="true"
         revision="26.0.2"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e7ece3a5f31328706d485f8f2612791a8355e2eb.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e7ece3a5f31328706d485f8f2612791a8355e2eb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_7e637be50c186ebf106ae02a7a3901a446d90e52.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/libs/infer-annotations-4.0.jar"
+        jar="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ce58e2ecd8c87d47d3d6f75c6f040b5a490c4a28.jar" />
+        <dex dex="/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_8ef1865da0db45c30cf5f2f8a6be586dabed7b73.jar" />
     </item>
 
 </items>
