@@ -37,7 +37,6 @@ class MapsContainer extends Component {
     
     render() {
         const { busStops, route } = this.props;
-        console.log(this.props);
         return (
             <View style={styles.container}>                
                 <MapView
