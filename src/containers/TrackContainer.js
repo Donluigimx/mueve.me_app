@@ -21,6 +21,22 @@ class TrackContainer extends Component {
     }
   }
 
+  trackBus = () => {
+    const { trackBus, socket } = this.props
+    navigator.geolocation.getCurrentPosition(pos => {
+      socket.emit('busSet', {
+        busId: trackBus,
+        lat: pos.coords.latitude,
+        lng: pos.coords.longitude
+      })
+      console.log({
+        busId: trackBus,
+        lat: pos.coords.latitude,
+        lng: pos.coords.longitude
+      })
+    })
+  }
+
   render () {
     const {route, trackBus} = this.props
     console.log(this.props)
@@ -33,7 +49,8 @@ class TrackContainer extends Component {
         <BottomButton
           opacity={route !== null && trackBus !== null ? 1 : 0.5}
           action={'Iniciar Reporte'}
-          enabled={route !== null && trackBus !== null} />
+          enabled={route !== null && trackBus !== null}
+          pressAction={this.trackBus} />
       </View>
     )
   }
@@ -48,6 +65,6 @@ const styles = StyleSheet.create({
 })
 
 export default connect(
-  state => ({ ...state.track, token: state.users.token}),
+  state => ({ ...state.track, token: state.users.token, socket: state.users.socket}),
   dispatch => bindActionCreators(trackActions, dispatch)
 )(TrackContainer)

@@ -6,15 +6,22 @@ export const getBusStopsByRoute = (route, token) => ({
     payload: {
         request: {
             method: 'GET',
-            url: `/Routes?access_token=${token}&filter={"where": {"number": "${route}"}, "include": ["busStops"]}`,
+            url: `/Routes?access_token=${token}&filter={"where": {"number": "${route}"}, "include": ["busStops", "buses"]}`,
         }
     }
-});
+})
+
+export const setBusMarker = (marker) => ({
+    type: 'ADD_BUS_MARKER',
+    marker
+})
 
 export default createReducer(
     {
         route: null,
-        busStops: []
+        busStops: [],
+        buses: [],
+        busesMarkers: []
     },
     {
         BUS_STOPS_BY_ROUTE_SUCCESS: (state, { payload }) => {
@@ -23,6 +30,7 @@ export default createReducer(
                     ...state,
                     route: payload.data[0].number,
                     busStops: payload.data[0].busStops,
+                    buses: payload.data[0].buses,
                 }
             } else {
                 Alert.alert(
@@ -32,9 +40,15 @@ export default createReducer(
                 return {
                     ...state,
                     route: null,
-                    busStops: []
+                    busStops: [],
+                    buses: [],
+                    busesMarkers: []
                 };
             }
-        }
+        },
+        ADD_BUS_MARKER: (state, {marker}) => ({
+            ...state,
+            busesMarkers: [...state.busesMarkers, marker]
+        })
     }
 );

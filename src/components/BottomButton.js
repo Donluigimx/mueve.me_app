@@ -8,7 +8,8 @@ export default class BottomButton extends Component {
         <TouchableOpacity 
           style={styles.button}
           ref={input => input ? input.setOpacityTo(this.props.opacity) : ''}
-          disabled={!this.props.enabled} >
+          disabled={!this.props.enabled}
+          onPress={this.props.pressAction} >
           <Text style={styles.buttonText} >{this.props.action}</Text>
         </TouchableOpacity>
       </View>

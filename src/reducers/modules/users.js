@@ -1,5 +1,6 @@
 import { createReducer } from '../utils'
 import { AsyncStorage } from 'react-native'
+import io from 'socket.io-client'
 
 export const authUser = (username, password) => ({
     type: 'AUTH_USER',
@@ -25,7 +26,8 @@ export default createReducer(
     {
         isAuthed: false,
         token: null,
-        userId: null
+        userId: null,
+        socket: io('http://api.mueve.me')
     },
     {
         AUTH_USER_SUCCESS: (state, action) => {
