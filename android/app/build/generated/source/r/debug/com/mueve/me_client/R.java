@@ -2093,7 +2093,9 @@ containing a value of this type.
         public static final int common_google_signin_btn_text_light_normal_background=0x7f020050;
         public static final int googleg_disabled_color_18=0x7f020051;
         public static final int googleg_standard_color_18=0x7f020052;
-        public static final int notification_template_icon_bg=0x7f020053;
+        public static final int node_modules_reactnavigation_src_views_assets_backicon=0x7f020053;
+        public static final int notification_template_icon_bg=0x7f020055;
+        public static final int src_img_mueve_me_logo=0x7f020054;
     }
     public static final class id {
         public static final int action0=0x7f0d0063;

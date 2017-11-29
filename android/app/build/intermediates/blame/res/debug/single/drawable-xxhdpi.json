@@ -176,6 +176,10 @@
         "source": "/home/donluigimx/Documents/mueve.me_app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
+        "source": "/home/donluigimx/Documents/Projects/mueve.me_client/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
+    },
+    {
         "merged": "/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
         "source": "/home/donluigimx/Documents/Projects/mueve.me_client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png"
     },

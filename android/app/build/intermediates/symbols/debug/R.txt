@@ -517,7 +517,9 @@ int drawable common_google_signin_btn_text_light_normal 0x7f02004f
 int drawable common_google_signin_btn_text_light_normal_background 0x7f020050
 int drawable googleg_disabled_color_18 0x7f020051
 int drawable googleg_standard_color_18 0x7f020052
-int drawable notification_template_icon_bg 0x7f020053
+int drawable node_modules_reactnavigation_src_views_assets_backicon 0x7f020053
+int drawable notification_template_icon_bg 0x7f020055
+int drawable src_img_mueve_me_logo 0x7f020054
 int id action0 0x7f0d0063
 int id action_bar 0x7f0d0053
 int id action_bar_activity_content 0x7f0d0000

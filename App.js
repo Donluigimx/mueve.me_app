@@ -24,8 +24,9 @@ export default class App extends React.Component {
 
     AsyncStorage.getItem('@MueveMe:authToken')
     .then( value => {
-        console.log(value)
-        store.dispatch(setToken(value));
+        if (value) {
+          store.dispatch(setToken(value))
+        }
     })
         
     return (
